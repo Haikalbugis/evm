@@ -5,4 +5,5 @@ edition = "2024"
 
 [dependencies]
 alloy = { version = "1.0.30", features = ["full"] }
+anyhow = "1.0.100"
 serde = "1.0.224"
