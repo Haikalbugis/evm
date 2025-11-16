@@ -5,6 +5,7 @@ use alloy::signers::Signer;
 use alloy::{hex, signers::local::PrivateKeySigner};
 use anyhow::Result;
 
+#[derive(Debug)]
 pub struct SignMessage {
     pub private_key: String,
     pub address: String,

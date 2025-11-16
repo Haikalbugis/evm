@@ -1,6 +1,7 @@
 use crate::Wallet;
 use alloy::{hex, signers::local::PrivateKeySigner};
 
+#[derive(Debug)]
 pub struct NewWallet {
     pub private_key: String,
     pub address: String,
