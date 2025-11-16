@@ -6,9 +6,9 @@ use alloy::{hex, signers::local::PrivateKeySigner};
 use anyhow::Result;
 
 pub struct SignMessage {
-    private_key: String,
-    address: String,
-    signature: String,
+    pub private_key: String,
+    pub address: String,
+    pub signature: String,
 }
 
 impl Wallet {
